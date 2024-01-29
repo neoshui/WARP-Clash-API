@@ -1,5 +1,5 @@
-config/*.json
-config/*.csv
+# config/*.json
+# config/*.csv
 .env.local
 Dockerfile
 docker-compose.yaml
