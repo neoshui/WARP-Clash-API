@@ -1,7 +1,11 @@
 FROM python:3.11-alpine
 
 WORKDIR /app
+RUN ls 
 COPY . .
+
+RUN ls /app
+
 
 # Change Alpine source to Aliyun
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
