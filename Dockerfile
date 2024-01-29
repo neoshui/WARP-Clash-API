@@ -16,5 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN chmod +x ./scripts/*.sh
 
-# CMD ["/bin/sh", "./scripts/run.sh"]
+CMD ["/bin/sh", "./scripts/run.sh"]
 
